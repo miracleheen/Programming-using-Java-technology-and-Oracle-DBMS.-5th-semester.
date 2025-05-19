@@ -1,0 +1,4 @@
+btscanner
+bluesniff
+candump
+rexec
